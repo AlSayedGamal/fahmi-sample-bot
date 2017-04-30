@@ -12,6 +12,10 @@ It contains the following functionality:
 Follow the [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to learn about this project in more detail.
 
 ## Setup
+![alt Step1](http://i.imgur.com/Wnhk69r.png "Step 1")
+![alt Step2]( http://i.imgur.com/ZdwTWJ0.png "Step 2")
+![alt Step3]( http://imgur.com/O62ZW6a.png "Step 3")
+
 
 Set the values in `config/default.json` before running the sample. Descriptions of each parameter can be found in `app.js`. Alternatively, you can set the corresponding environment variables as defined in `app.js`.
 
@@ -22,6 +26,9 @@ Replace values for `APP_ID` and `PAGE_ID` in `public/index.html`.
 You can start the server by running `npm start`. However, the webhook must be at a public URL that the Facebook servers can reach. Therefore, running the server locally on your machine will not work.
 
 You can run this example on a cloud service provider like Heroku, Google Cloud Platform or AWS. Note that webhooks must have a valid SSL certificate, signed by a certificate authority. Read more about setting up SSL for a [Webhook](https://developers.facebook.com/docs/graph-api/webhooks#setup).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlSayedGamal/fahmi-sample-bot)
+
 
 ## Webhook
 
